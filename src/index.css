@@ -585,3 +585,60 @@ table input[type="number"]:focus {
     padding: 28px 20px;
   }
 }
+
+/* ===== REGISTER PAGE STYLES ===== */
+.auth-logo-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #0a1628;
+  letter-spacing: -0.5px;
+}
+
+.auth-logo-max {
+  color: #d4af37;
+}
+
+.auth-logo-sub {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.auth-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.auth-link {
+  color: #0f766e;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.auth-link:hover {
+  color: #d4af37;
+}
+
+.auth-copy {
+  text-align: center;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
