@@ -1,8 +1,12 @@
 // v2 - production build
 import axios from "axios";
 
+const BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://sorteamax-backend-production.up.railway.app";
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://127.0.0.1:8000",
+  baseURL: BASE_URL,
 });
 
 api.interceptors.request.use((config) => {
